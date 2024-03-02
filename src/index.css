@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-header {
+    @apply bg-gradient-to-t from-[#313131] to-[#131313]
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.6rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #888888d5;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
