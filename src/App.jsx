@@ -1,6 +1,5 @@
 import HeroDetalles from './components/Detalles/HeroDetalles'
 import HeroHeader from './components/Header/HeroHeader'
-import HeroMain from './components/Main/HeroMain'
 import MenuMobile from './components/Mobile/MenuMobile'
 import HeroShop from './components/Shop/HeroShop'
 import { SearchProvider } from './SearchContext'
